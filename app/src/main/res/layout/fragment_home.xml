@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewPaymentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:padding="50dp"
+        android:text="@string/payment_details"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:hint="@string/select_month"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:background="@drawable/border"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:hint="@string/select_year"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:background="@drawable/border"
+        android:textAlignment="center"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="@color/label"
+        android:minHeight="48dp"
+        android:text="Check"
+        />
+
+</FrameLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaintenanceUpdateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textViewMaintenanceUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:paddingTop="50dp"
+        android:text="Maintenance Update"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextEnterNewMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:hint="Enter new Maintenance"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="@drawable/border"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextEnterMsgForMembers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:hint="Enter message for members"
+        android:minHeight="80dp"
+        android:background="@drawable/border"
+        android:inputType="textMultiLine"
+        />
+
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#F44336"
+        android:minHeight="48dp"
+        android:text="update"
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/maintenance_payment"
+        android:title="Make payment"
+        android:icon="@drawable/ic_maintenance_payment"/>
+
+    <item
+        android:id="@+id/maintenance_update"
+        android:title="Update maintenance"
+        android:icon="@drawable/ic_maintenance_update"/>
+
+    <item
+        android:id="@+id/workers_payment"
+        android:title="Workers payment"
+        android:icon="@drawable/ic_workers_payment"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
