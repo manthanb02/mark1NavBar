@@ -33,7 +33,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:background="@drawable/border"
-
+        android:padding="20dp"
         />
 
     <EditText
@@ -49,6 +49,7 @@
         android:minHeight="80dp"
         android:background="@drawable/border"
         android:inputType="textMultiLine"
+        android:padding="20dp"
         />
 
 

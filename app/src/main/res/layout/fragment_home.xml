@@ -20,35 +20,74 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editText1"
+<!--    <EditText-->
+<!--        android:id="@+id/editText1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:hint="@string/select_month"-->
+<!--        android:inputType="date"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:background="@drawable/border"-->
+<!--        android:textAlignment="center"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="240dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:hint="@string/select_year"-->
+<!--        android:inputType="number"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:background="@drawable/border"-->
+<!--        android:textAlignment="center"/>-->
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:hint="@string/select_month"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="140dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="100dp"
-        android:hint="@string/select_month"
-        android:inputType="date"
-        android:minHeight="48dp"
-        android:background="@drawable/border"
-        android:textAlignment="center"/>
+        >
 
-    <EditText
-        android:id="@+id/editText2"
+        <AutoCompleteTextView
+            android:id="@+id/dropDown_monthMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:hint="@string/select_year"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="240dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="100dp"
-        android:hint="@string/select_year"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:background="@drawable/border"
-        android:textAlignment="center"/>
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/dropDown_yearMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
 
 
     <Button
